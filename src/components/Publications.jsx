@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Publications() {
 
@@ -6,7 +5,7 @@ function Publications() {
     return (
 
         <div  >
-            <h1 class="text-4xl text-bold text-center py-4">My Published Contributions</h1>
+            <h1 class="text-4xl text-bold text-center py-4">My Published Contributions 📢</h1>
             <div class="flex flex-col justify-around md:flex-row">
             
            <a href="https://www.npmjs.com/package/epic-on-fhir-login"> <div class="max-w-sm rounded overflow-hidden  hover:shadow-lg px-12 py-20 mb-4">

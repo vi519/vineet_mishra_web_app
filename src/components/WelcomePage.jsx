@@ -25,8 +25,8 @@ function WelcomePage() {
 
                 </div>
 
-                <div class="px-6 mt-10">
-                    <img className="Intro-img" src="https://www.itwebtechnique.com/public/images/front-end-developer.png" alt="" />
+                <div class="flex flex-col justify-evenly py-16">
+                    <img className="Intro-img" src="https://media.lrng.org/67/69/43bffac0fa432f190bd54a992af13d2b5d8d-558x430.gif" alt="" />
                 </div>
             </div>
     )

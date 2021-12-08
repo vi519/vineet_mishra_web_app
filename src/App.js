@@ -20,10 +20,10 @@ function App() {
 
   const name ="<Vineet Mishra/>"
   return (
-    <div>
+    <div class="overflow-x-hidden">
           <HashRouter >
    
-   <nav class="flex items-center  justify-between flex-wrap  p-6  bg-white sticky top-0 z-50 "  id="nav">
+   <nav class="flex items-center  justify-between flex-wrap  p-6  bg-white  "  id="nav">
             <Link to="/" > 
              <div class="flex  flex-shrink-0  mr-6">
              <span className="heading"class=" text-4xl tracking-tight ">
@@ -33,12 +33,12 @@ function App() {
               </Link>
 
               <div class="w-full  text-center flex-grow lg:flex lg:items-center   lg:w-auto ">
-                <div class="text-sm lg:flex-grow  space-x-20 ">
-                  <a href="#section-2" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl"> 
+                <div class="text-sm lg:flex-grow   space-x-20 ">
+                  <a href="#section-2" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl "> 
                   Skills
                   </a>
 
-                  <a href="#section-3" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl ">
+                  <a href="#section-3" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl ">
                      Projects
                   </a>
 
@@ -96,12 +96,11 @@ function App() {
                <Route exact path="/blogs" element={<Blogs/>}></Route>
                <Route exact path="/published" element={<Publications/>}></Route>
                <Route exact path="/contact" element={<Contact/>}></Route> */}
-          
-
-
-
+        
             </Routes>
       </ HashRouter>
+
+      <footer class="text-center text-2xl px-2 py-3">Made with ❤️ by Vineet Mishra</footer>
     </div>
   );
 }
