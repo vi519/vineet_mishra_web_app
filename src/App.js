@@ -32,24 +32,24 @@ function App() {
               </div>
               </Link>
 
-              <div class="w-full  text-center flex-grow lg:flex lg:items-center   lg:w-auto ">
-                <div class="text-sm lg:flex-grow   space-x-20 ">
-                  <a href="#section-2" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl "> 
+              <div class="w-full  text-center flex-grow lg:flex lg:items-center  lg:w-auto  ">
+                <div class="text-sm lg:flex-grow   ">
+                  <a href="#section-2" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl  px-12 "> 
                   Skills
                   </a>
 
-                  <a href="#section-3" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl ">
+                  <a href="#section-3" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl  px-12  ">
                      Projects
                   </a>
 
 
-                  <a href="#section-5" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl ">
+                  <a href="#section-5" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl  px-12 ">
                 Blogs
                   </a>
-                  <a href="#section-4" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl ">
+                  <a href="#section-4" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl  px-12 ">
                     Published
                   </a>
-                  <a href="#section-6" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl ">
+                  <a href="#section-6" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl   px-12">
                     Contact
                   </a>
 
@@ -100,7 +100,14 @@ function App() {
             </Routes>
       </ HashRouter>
 
-      <footer class="text-center text-2xl px-2 py-3">Made with ❤️ by Vineet Mishra</footer>
+      <footer class="text-center text-2xl px-2 py-3">Made with ❤️ by Vineet Mishra
+    <div class="w-full h-auto flex justify-center">
+    <img className="Intro-img" src="https://akshaysaini.in/img/foot.jpg" alt="" />
+    </div>
+      
+    
+      </footer>
+
     </div>
   );
 }

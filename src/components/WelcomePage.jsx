@@ -7,7 +7,7 @@ function WelcomePage() {
     return (
  
            
-         <div class="flex flex-col space-x-20 md:flex-row ">
+         <div class="flex flex-col  md:flex-row ">
 
                 <div class="px-12 mt-20">
                     <h1 class="text-4xl">Hi All, I am Vineet Mishra
@@ -25,8 +25,8 @@ function WelcomePage() {
 
                 </div>
 
-                <div class="flex flex-col justify-evenly py-16">
-                    <img className="Intro-img" src="https://media.lrng.org/67/69/43bffac0fa432f190bd54a992af13d2b5d8d-558x430.gif" alt="" />
+                <div class="flex flex-col justify-center mx-8 ">
+                    <img className="Intro-img" src="https://cdn.dribbble.com/users/1162077/screenshots/5403918/focus-animation.gif" alt="" />
                 </div>
             </div>
     )
