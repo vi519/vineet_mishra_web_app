@@ -15,6 +15,7 @@ import Publications from "./components/Publications"
 import Skills from "./components/Skills";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
+import Education from "./components/Education";
 
 function App() {
 
@@ -34,24 +35,30 @@ function App() {
 
               <div class="w-full  text-center flex-grow lg:flex lg:items-center  lg:w-auto  ">
                 <div class="text-sm lg:flex-grow   ">
-                  <a href="#section-2" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl  px-12 "> 
+                  <a href="#section-2" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl  px-6 "> 
                   Skills
                   </a>
 
-                  <a href="#section-3" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl  px-12  ">
+                  <a href="#section-3" class="block mt-4 text-center lg:inline-block lg:mt-0 text-teal-200 hover:text-gray-500 mr-4 text-xl px-6 ">
                      Projects
                   </a>
 
 
-                  <a href="#section-5" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl  px-12 ">
+                  <a href="#section-5" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl px-6 ">
                 Blogs
                   </a>
-                  <a href="#section-4" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl  px-12 ">
+                  <a href="#section-4" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl px-6">
                     Published
                   </a>
-                  <a href="#section-6" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl   px-12">
+                  <a href="#section-6" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl  px-6">
+                  Academics
+                  </a>
+                  <a href="#section-7" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200  hover:text-gray-500 mr-4 text-xl   px-6">
                     Contact
                   </a>
+
+                
+                
 
 
                 </div>
@@ -84,6 +91,10 @@ function App() {
 </div>
    
 <div id="section-6">
+<Education/>
+</div>
+
+<div id="section-7">
 <Contact/>
 </div>
   
