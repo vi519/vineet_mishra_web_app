@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/vineet_mishra_web_app/static/css/main.3e03054e.chunk.css",
-    "main.js": "/vineet_mishra_web_app/static/js/main.e27b17cc.chunk.js",
-    "main.js.map": "/vineet_mishra_web_app/static/js/main.e27b17cc.chunk.js.map",
+    "main.css": "/vineet_mishra_web_app/static/css/main.4cb8c836.chunk.css",
+    "main.js": "/vineet_mishra_web_app/static/js/main.b92b2621.chunk.js",
+    "main.js.map": "/vineet_mishra_web_app/static/js/main.b92b2621.chunk.js.map",
     "runtime-main.js": "/vineet_mishra_web_app/static/js/runtime-main.efae676b.js",
     "runtime-main.js.map": "/vineet_mishra_web_app/static/js/runtime-main.efae676b.js.map",
     "static/js/2.a84c8aad.chunk.js": "/vineet_mishra_web_app/static/js/2.a84c8aad.chunk.js",
@@ -10,15 +10,16 @@
     "static/js/3.7c648f0d.chunk.js": "/vineet_mishra_web_app/static/js/3.7c648f0d.chunk.js",
     "static/js/3.7c648f0d.chunk.js.map": "/vineet_mishra_web_app/static/js/3.7c648f0d.chunk.js.map",
     "index.html": "/vineet_mishra_web_app/index.html",
-    "static/css/main.3e03054e.chunk.css.map": "/vineet_mishra_web_app/static/css/main.3e03054e.chunk.css.map",
+    "static/css/main.4cb8c836.chunk.css.map": "/vineet_mishra_web_app/static/css/main.4cb8c836.chunk.css.map",
     "static/js/2.a84c8aad.chunk.js.LICENSE.txt": "/vineet_mishra_web_app/static/js/2.a84c8aad.chunk.js.LICENSE.txt",
     "static/media/Capture.724192fa.PNG": "/vineet_mishra_web_app/static/media/Capture.724192fa.PNG",
-    "static/media/logo.6ce24c58.svg": "/vineet_mishra_web_app/static/media/logo.6ce24c58.svg"
+    "static/media/logo.6ce24c58.svg": "/vineet_mishra_web_app/static/media/logo.6ce24c58.svg",
+    "static/media/stats.5fce90bc.jpg": "/vineet_mishra_web_app/static/media/stats.5fce90bc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.efae676b.js",
     "static/js/2.a84c8aad.chunk.js",
-    "static/css/main.3e03054e.chunk.css",
-    "static/js/main.e27b17cc.chunk.js"
+    "static/css/main.4cb8c836.chunk.css",
+    "static/js/main.b92b2621.chunk.js"
   ]
 }
