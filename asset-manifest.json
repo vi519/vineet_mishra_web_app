@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/vineet_mishra_web_app/static/css/main.3542f58f.chunk.css",
-    "main.js": "/vineet_mishra_web_app/static/js/main.0ab09646.chunk.js",
-    "main.js.map": "/vineet_mishra_web_app/static/js/main.0ab09646.chunk.js.map",
+    "main.css": "/vineet_mishra_web_app/static/css/main.dc858c7a.chunk.css",
+    "main.js": "/vineet_mishra_web_app/static/js/main.1192fdce.chunk.js",
+    "main.js.map": "/vineet_mishra_web_app/static/js/main.1192fdce.chunk.js.map",
     "runtime-main.js": "/vineet_mishra_web_app/static/js/runtime-main.454fe1fc.js",
     "runtime-main.js.map": "/vineet_mishra_web_app/static/js/runtime-main.454fe1fc.js.map",
     "static/css/2.2ea7efaa.chunk.css": "/vineet_mishra_web_app/static/css/2.2ea7efaa.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.3fca99c3.chunk.js.map": "/vineet_mishra_web_app/static/js/3.3fca99c3.chunk.js.map",
     "index.html": "/vineet_mishra_web_app/index.html",
     "static/css/2.2ea7efaa.chunk.css.map": "/vineet_mishra_web_app/static/css/2.2ea7efaa.chunk.css.map",
-    "static/css/main.3542f58f.chunk.css.map": "/vineet_mishra_web_app/static/css/main.3542f58f.chunk.css.map",
+    "static/css/main.dc858c7a.chunk.css.map": "/vineet_mishra_web_app/static/css/main.dc858c7a.chunk.css.map",
     "static/js/2.70892f74.chunk.js.LICENSE.txt": "/vineet_mishra_web_app/static/js/2.70892f74.chunk.js.LICENSE.txt",
     "static/media/Capture.724192fa.PNG": "/vineet_mishra_web_app/static/media/Capture.724192fa.PNG",
     "static/media/logo.6ce24c58.svg": "/vineet_mishra_web_app/static/media/logo.6ce24c58.svg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.454fe1fc.js",
     "static/css/2.2ea7efaa.chunk.css",
     "static/js/2.70892f74.chunk.js",
-    "static/css/main.3542f58f.chunk.css",
-    "static/js/main.0ab09646.chunk.js"
+    "static/css/main.dc858c7a.chunk.css",
+    "static/js/main.1192fdce.chunk.js"
   ]
 }
