@@ -2,13 +2,8 @@ import React from 'react'
 
 function Links() {
     return (
-        // <div>
-        // <a href="">
-        //     <img src="https://toppng.com/uploads/preview/follow-us-on-social-media-facebook-small-icon-11563311040ggayarlfqm.png" alt="" />
-        //     </a>    
-        // </div>
-
-<div class="grid grid-cols-5 ">
+    
+<div class="grid grid-cols-5 mt-4 ">
 <div>
 <a  title="Gmail" onClick={()=>window.open('mailto:businesswithvineetmishra@gmail.com?subject=Subject&body=Body%20goes%20here')}>
 <img  class="rounded-full h-12 w-12 flex  "src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" />
@@ -35,8 +30,15 @@ function Links() {
 
 <a href="https://www.linkedin.com/in/vineet-mishra-8850981a6/">
 <img  title="LinkedIn" class="rounded-full h-12 w-12 flex items-center justify-evenly"src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" />
-        </a>  
+        </a> 
 
+
+
+</div>
+<div>
+<a href="https://leetcode.com/vineetmishrahbk/">
+<img  title="Leetcode" class="rounded-full h-12 w-12 flex items-center justify-evenly"src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3628885-3030025.png" alt="" />
+        </a> 
 </div>
 </div>
     )

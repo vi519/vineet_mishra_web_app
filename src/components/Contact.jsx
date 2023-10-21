@@ -1,28 +1,23 @@
-import React from 'react'
-import { Linking } from 'react'
+import React from 'react';
 
 function Contact() {
-    return (
-        <div class="flex flex-col text-center text-2xl mb-4">
-            <div class="text-4xl"> Contact Me ☎️ </div>
-            <div class="text-gray-500 py-3 text-sm">DISCUSS A PROJECT OR WANT TO HIRE ME OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
+  const email = 'vineetmishrahbk@gmail.com';
 
-            </div  >
-            <svg class="animate-bounce w-6 h-6 "></svg>
-       
-
+  return (
+    <div className="flex flex-col items-center text-center text-2xl my-6">
+      <div className="text-4xl font-bold">Contact Me ☎️</div>
+      <p className="text-gray-500 mt-4 text-lg">
+        If you'd like to discuss a project, hire me, or just say hi, my inbox is open for all!
+      </p>
       
-      <button class=" text-gray-500 hover:text-black px-4 text-xl text-bold" onClick={()=>window.open('mailto:businesswithvineetmishra@gmail.com?subject=Subject&body=Body%20goes%20here')}>
-      businesswithvineetmishra@gmail.com
-          
+      <button
+        className="text-gray-500 hover:text-black mt-6 text-xl font-bold border-2 border-gray-500 px-4 py-2 rounded-full transition-transform transform hover:scale-105"
+        onClick={() => window.open(`mailto:${email}?subject=Subject&body=Body%20goes%20here`)}
+      >
+        {email}
       </button>
-      
-     
-          
-         
-            
-        </div>
-    )
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;
